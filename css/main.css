@@ -1,0 +1,64 @@
+header{background-color: bisque;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+img{　 height: 200px;
+    width : 370px;
+    margin-top:50px ;
+}
+
+.main-img{
+    text-align: center;
+}
+
+.menu{
+    display: flex;
+}
+.menu-1{
+    margin-left: auto;
+}
+a.menu-icon{
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    display: none;
+    
+}
+
+.menuButton {
+    
+   
+}
+.html {
+    margin-left: 100px;
+}
+.Javascript{
+    margin-left: 80px;  
+}
+.top{
+    margin-left: 80px;
+}
+
+
+
+
+
+
+@media (max-width: 760px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+
+a.menu-icon {display: block;
+}
+.html{
+    display: none;
+}
+.Javascript{
+    display: none;
+}
+.top{
+    display: none;
+
+}
